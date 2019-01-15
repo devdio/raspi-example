@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 import RPi.GPIO as GPIO
 import time
  
@@ -35,5 +36,3 @@ except KeyboardInterrupt:
     p.stop()
 
 GPIO.cleanup()
-
-출처: http://ljs93kr.tistory.com/41 [건프의 소소한 개발이야기]

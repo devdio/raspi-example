@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import RPi.GPIO as GPIO
 from time import sleep
 
@@ -13,5 +15,3 @@ for k in range(10):
     print '%d times'%k
 
 GPIO.cleanup()
-
-
