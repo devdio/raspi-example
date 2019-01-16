@@ -1,11 +1,12 @@
-## WebIOPi사용하기 ##
+## RPi.GPIO 참고 사이트  ##
+https://sourceforge.net/p/raspberry-gpio-python/wiki/Home/
 
-wget [http://sourceforge.net/projects/webiopi/files/WebIOPi-0.7.1.tar.gz](http://sourceforge.net/projects/webiopi/files/WebIOPi-0.7.1.tar.gz "http://sourceforge.net/projects/webiopi/files/WebIOPi-0.7.1.tar.gz") 
+## WebIOPi사용하기 ##
+wget [http://sourceforge.net/projects/webiopi/files/WebIOPi-0.7.1.tar.gz](http://sourceforge.net/projects/webiopi/files/WebIOPi-0.7.1.tar.gz "http://sourceforge.net/projects/webiopi/files/WebIOPi-0.7.1.tar.gz") <br/>
 wget [https://raw.githubusercontent.com/doublebind/raspi/master/webiopi-pi2bplus.patch](https://raw.githubusercontent.com/doublebind/raspi/master/webiopi-pi2bplus.patch "https://raw.githubusercontent.com/doublebind/raspi/master/webiopi-pi2bplus.patch")
 
 
 ## Bluetooh ##
-
 sudo nano /etc/systemd/system/dbus-org.bluez.service <br/>
 git clone [https://github.com/karulis/pybluez.git](https://github.com/karulis/pybluez.git "https://github.com/karulis/pybluez.git") 
 
